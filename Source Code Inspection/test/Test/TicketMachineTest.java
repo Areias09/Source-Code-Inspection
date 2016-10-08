@@ -62,10 +62,4 @@ public class TicketMachineTest {
         System.out.println(tm2.imprimir());
         assertEquals("R$10", tm2.imprimir());
     }
-
-    // TODO add test methods here.
-    // The methods must be annotated with annotation @Test. For example:
-    //
-    // @Test
-    // public void hello() {}
 }
