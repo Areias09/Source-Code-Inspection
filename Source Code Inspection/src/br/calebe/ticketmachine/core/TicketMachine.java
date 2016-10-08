@@ -31,7 +31,7 @@ public class TicketMachine {
         } else {
             this.saldo += quantia;
         }
-    }
+    
         this.saldo += quantia;
     }
 
@@ -48,5 +48,6 @@ public class TicketMachine {
         result += "*** R$ " + saldo + ",00 ****\n";
         result += "*****************\n";
         return result;
-    }
+  }
 }
+
