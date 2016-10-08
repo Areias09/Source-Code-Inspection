@@ -5,8 +5,12 @@
  */
 package Test;
 
+import br.calebe.ticketmachine.core.PapelMoeda;
+import java.util.Arrays;
+import java.util.Iterator;
 import org.junit.After;
 import org.junit.AfterClass;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;

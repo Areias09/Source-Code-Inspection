@@ -1,3 +1,5 @@
+package Test;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -49,7 +51,7 @@ public class TicketMachineTest {
         } catch (PapelMoedaInvalidaException ex) {
             Logger.getLogger(TicketMachineTest.class.getName()).log(Level.SEVERE, null, ex);
         }
-        assertEquals(tm.getSaldo(), 5);
+        assertEquals(tm.getSaldo(), 10);
     }
 
     @Test
@@ -60,6 +62,12 @@ public class TicketMachineTest {
         tm2.inserir(10);
         
         System.out.println(tm2.imprimir());
-        assertEquals("R$10", tm2.imprimir());
+        assertEquals("R$ 10,00 ", tm2.imprimir());
     }
+
+    // TODO add test methods here.
+    // The methods must be annotated with annotation @Test. For example:
+    //
+    // @Test
+    // public void hello() {}
 }
